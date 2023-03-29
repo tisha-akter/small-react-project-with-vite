@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Device from './component/Device/Device'
 import Watch from './component/Watch/Watch'
+import Knob from './component/Knob/Knob'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <Knob steps="456"></Knob>
    
     <Device name="iphone" price="596897"></Device>
     <Device name="samsung" price="4568"></Device>
